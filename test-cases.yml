@@ -4,7 +4,8 @@
   requirement: |
     При полностью заполненных полях в форме регистрации пользователь должен иметь возможность зарегистрироваться
   prerequisites: |
-    Открыта страница Sing up
+    Открыта страница Sing up 
+    https://codebattle.hexlet.io/users/new?locale=en&next=%2F
   test-data: |
     Тестовые данные
     Nickname = testuser Email = iren3008.anohina@yandex.ru Password = 123456
@@ -75,6 +76,7 @@
     При неправильном email или пароле пользователь должен получить сообщение об ошибке
   prerequisites:
     Открыта страница Sing in
+    https://codebattle.hexlet.io/session/new?locale=en&next=%2F
   test-data: |
     email = hexlet@yandex.ru Пароль = testpass123
   steps:
@@ -83,3 +85,19 @@
     - Нажимаем кнопку "Submit"
   expected-result: |
     Пользователь должен получить сообщение об ошибке
+
+
+- summary: |
+    Проверка восстановления пароля
+  requirement: |
+    Если пароль потерян, пользователь должен иметь возможность восстановить его
+  prerequisites:
+    Открыта страница Sing in
+  test-data: |
+    email = iren3008.anohina@yandex.ru
+  steps:
+    - Нажимаем "Forgot your password?"
+    - Вводим email
+    - Нажимаем кнопку "Submit"
+  expected-result: |
+    Пользователь должен получить сообщение на указанную почту с инструкцией по восстановлению пароля 
