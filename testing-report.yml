@@ -29,7 +29,7 @@
 
 - summary: |
     Проверка восстановления пароля
-  status: fail
+  status: pass
 
 - summary: |
     Проверка отображения кнопки "close" в форме "Send Feedback"
