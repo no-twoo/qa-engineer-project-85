@@ -1,3 +1,10 @@
 ---
 issues:
-  - url: ""
+  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1242"
+
+issues:
+  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1743"
+  // Не уверена, что мой тест-кейс "Проверка возможности посмотреть записи прошедших игр" это баг, поэтому прикрепила ссылку на фичу, которая в разработке
+
+issues:
+  - url: "https://github.com/hexlet-codebattle/codebattle/issues/1761"
