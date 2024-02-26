@@ -8,7 +8,7 @@
     https://codebattle.hexlet.io/users/new?locale=en&next=%2F
   test-data: |
     Тестовые данные
-    Nickname = testuser Email = iren3008.anohina@yandex.ru Password = 123456
+    Nickname = testuser Email = iren3008.anohina@yandex.ru Password = 654321
   steps:
     - Ввести никнейм
     - Ввести email
