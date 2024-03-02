@@ -35,7 +35,7 @@
 
 
 - summary: |
-    Проверка регистрации через Discord
+    Проверка авторизации через Discord
   requirement: |
     При нажатии на кнопку "Sing in with Discord" происходит интеграция с Discord, где пользователь вводит свои данные от Discord и у него создается аккаунт в Codebattle
   prerequisites: |
