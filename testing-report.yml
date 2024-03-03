@@ -32,7 +32,7 @@
   status: pass
 
 - summary: |
-    Проверка отправки обратной связи разработчикам в форме "Send Feedback"
+    Проверка работы кнопки "Close" в форме "Send Feedback"
   status: fail
 
 - summary: |
